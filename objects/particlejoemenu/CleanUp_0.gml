@@ -1,0 +1,3 @@
+part_particles_clear(partZoomSystem);
+part_type_destroy(partZoomParticle);
+part_system_destroy(partZoomSystem);

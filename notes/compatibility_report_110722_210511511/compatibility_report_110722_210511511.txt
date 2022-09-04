@@ -1,0 +1,220 @@
+Converting GML script: ${project_dir}\scripts\scrSetPlayerMask\scrSetPlayerMask.gml
+Converted description /// @description sets the player's mask depending on gravity flip mode
+
+Converting GML script: ${project_dir}\scripts\scrFlipGrav\scrFlipGrav.gml
+Converted description /// @description flips the current gravity
+
+Converting GML script: ${project_dir}\scripts\scrInitializeGlobals\scrInitializeGlobals.gml
+Error: variable 'scheduler_resolution_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description initializes all global variables needed for the game
+
+Converting GML script: ${project_dir}\scripts\scrSetGlobalOptions\scrSetGlobalOptions.gml
+Converted description /// @description sets configurable global options
+
+Converting GML script: ${project_dir}\scripts\scrSaveConfig\scrSaveConfig.gml
+Converted description /// @description saves current config settings
+
+Converting GML script: ${project_dir}\scripts\scrLoadConfig\scrLoadConfig.gml
+Converted description /// @description loads config settings, sets default config if it doesn't exist
+
+Converting GML script: ${project_dir}\scripts\scrSaveGame\scrSaveGame.gml
+Converted description /// @description scrSaveGame(saveposition)/// @param saveposition
+Converted string - line 84: "Data\save" -> "Data\\save"
+Converted string - line 89: "Data\save" -> "Data\\save"
+
+Converting GML script: ${project_dir}\scripts\scrLoadGame\scrLoadGame.gml
+Converted description /// @description scrLoadGame(loadfile)/// @param loadfile
+Converted string - line 16: "Data\save" -> "Data\\save"
+Converted string - line 20: "Data\save" -> "Data\\save"
+
+Converting GML script: ${project_dir}\scripts\scrSetRoomCaption\scrSetRoomCaption.gml
+Converted description /// @description sets the room caption
+
+Converting GML script: ${project_dir}\scripts\scrDrawButtonInfo\scrDrawButtonInfo.gml
+Converted description /// @description scrDrawButtonInfo(optionsText)/// @param optionsText
+
+Converting GML script: ${project_dir}\scripts\scrGetKeybind\scrGetKeybind.gml
+Converted description /// @description scrGetKeybind(key)/// @param key
+Converted string - line 73: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\scrGetControllerBind\scrGetControllerBind.gml
+Converted description /// @description scrGetControllerBind(buttonIndex)/// @param buttonIndex
+
+Converting GML script: ${project_dir}\scripts\scrToggleMusic\scrToggleMusic.gml
+Converted description /// @description toggles the music on and off
+
+Converting GML script: ${project_dir}\scripts\scrRestartGame\scrRestartGame.gml
+Converted description /// @description restarts the game
+
+Converting GML script: ${project_dir}\scripts\scrSetVsync\scrSetVsync.gml
+Converted description /// @description sets vsync mode depending on the current setting
+
+Converting GML script: ${project_dir}\scripts\scrResetWindowSize\scrResetWindowSize.gml
+Converted description /// @description resets the window size back to the default
+
+Converting GML script: ${project_dir}\scripts\scrGetMusic\scrGetMusic.gml
+Converted description /// @description gets which song is supposed to be playing for the current room and plays it
+
+Converting GML script: ${project_dir}\scripts\scrPlayMusic\scrPlayMusic.gml
+Converted description /// @description scrPlayMusic(soundid,loops)/// @param soundid
+/// @param loops
+
+Converting GML script: ${project_dir}\scripts\scrStopMusic\scrStopMusic.gml
+Converted description /// @description stops any music currently playing
+
+Converting GML script: ${project_dir}\scripts\scrAnyControllerButton\scrAnyControllerButton.gml
+Converted description /// @description scrAnyControllerButton()
+
+Converting GML script: ${project_dir}\scripts\scrButtonCheck\scrButtonCheck.gml
+Converted description /// @description scrButtonCheck(buttonArray)/// @param buttonArray
+
+Converting GML script: ${project_dir}\scripts\scrButtonCheckPressed\scrButtonCheckPressed.gml
+Converted description /// @description scrButtonCheckPressed(buttonArray)/// @param buttonArray
+
+Converting GML script: ${project_dir}\scripts\scrButtonCheckReleased\scrButtonCheckReleased.gml
+Converted description /// @description scrButtonCheckReleased(buttonArray)/// @param buttonArray
+
+Converting GML script: ${project_dir}\scripts\scrDrawTextOutline\scrDrawTextOutline.gml
+Converted description /// @description scrDrawTextOutline(x,y,string,textcolor,outlinecolor)/// @param x
+/// @param y
+/// @param string
+/// @param textcolor
+/// @param outlinecolor
+
+Converting GML script: ${project_dir}\scripts\scrMakeShapes\scrMakeShapes.gml
+Converted description /// @description scrMakeShapes(x,y,angle,edges,numprojectiles,speed,obj)/// @param x
+/// @param y
+/// @param angle
+/// @param edges
+/// @param numprojectiles
+/// @param speed
+/// @param obj
+
+Converting GML script: ${project_dir}\scripts\scrMakeCircle\scrMakeCircle.gml
+Converted description /// @description scrMakeCircle(x,y,angle,numprojectiles,speed,obj)/// @param x
+/// @param y
+/// @param angle
+/// @param numprojectiles
+/// @param speed
+/// @param obj
+
+Font fDefault30 has been converted to font family Arial (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fDefault30\fDefault30.gms1.png
+Font fDefault24 has been converted to font family Arial (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fDefault24\fDefault24.gms1.png
+Font fDefault18 has been converted to font family Arial (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fDefault18\fDefault18.gms1.png
+Font fDefault12 has been converted to font family Arial (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fDefault12\fDefault12.gms1.png
+Converting GML script: ${project_dir}\objects\objWorld\Alarm_1.gml
+Converted description /// @description return to previous window position/size (after using display_reset)/// @param after using display_reset
+
+Converting GML script: ${project_dir}\objects\objWorld\Alarm_0.gml
+Converted description /// @description pause current music when it's done fading out
+
+Converting GML script: ${project_dir}\objects\objWorld\Other_10.gml
+Converted description /// @description fade current music out
+
+Converting GML script: ${project_dir}\objects\objWorld\Other_4.gml
+Converted description /// @description room checks
+
+Converting GML script: ${project_dir}\objects\objWorld\Draw_64.gml
+Converted description /// @description draw debug overlay
+
+Converting GML script: ${project_dir}\objects\objCamera\Other_10.gml
+Converted builtin - line 14: view_xview[0] = floor(xFollow/view_wview[0])*view_wview[0] -> __view_set( e__VW.XView, 0, floor(xFollow/view_wview[0])*view_wview[0] )
+Converted builtin - line 15: view_yview[0] = floor(yFollow/view_hview[0])*view_hview[0] -> __view_set( e__VW.YView, 0, floor(yFollow/view_hview[0])*view_hview[0] )
+Converted description /// @description snap view to the section of the room that the player's in
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objDifficultyMenu\Create_0.gml
+Converted string - line 20: "Data\save" -> "Data\\save"
+Converted string - line 30: "Data\save" -> "Data\\save"
+Converted string - line 34: "Data\save" -> "Data\\save"
+
+Converting GML script: ${project_dir}\objects\objDifficultyMenu\Step_0.gml
+Converted string - line 83: "Data\save" -> "Data\\save"
+Converted string - line 88: "Data\save" -> "Data\\save"
+Converted string - line 131: "Data\save" -> "Data\\save"
+Converted string - line 132: "Data\save" -> "Data\\save"
+
+Converting GML script: ${project_dir}\objects\objPlayer\Draw_0.gml
+Converted description /// @description draw the player
+
+Converting GML script: ${project_dir}\objects\objBow\Step_2.gml
+Converted description /// @description snap to the player after he moves this frame
+
+Converting GML script: ${project_dir}\objects\objBow\Step_0.gml
+Converted description /// @description snap to the player before he moves this frame
+
+Converting GML script: ${project_dir}\objects\objBow\Other_10.gml
+Converted description /// @description stay with the player
+
+Converting GML script: ${project_dir}\objects\objBlood\Collision_b6d7ef38-14f0-4624-adf0-ea0f76d64f22.gml
+Converted description /// @description do nothing
+
+Converting GML script: ${project_dir}\objects\objBlood\Collision_20071af9-2b1f-4ba0-94db-863b96edb8aa.gml
+Converted description /// @description snap to the block
+
+Converting GML script: ${project_dir}\objects\objGameOver\Draw_0.gml
+Converted description /// @description do nothing
+
+Converting GML script: ${project_dir}\objects\objMiku\Other_11.gml
+Converted description /// @description makes triangles
+
+Converting GML script: ${project_dir}\objects\objMiku\Other_10.gml
+Converted description /// @description makes squares
+
+Converting GML script: ${project_dir}\objects\objSave\Other_10.gml
+Converted description /// @description save the game
+
+Converting GML script: ${project_dir}\objects\objWarpStart\Collision_77891cc2-2e08-4953-a009-bdd3b5a02f21.gml
+Converted string - line 3: "Data\save" -> "Data\\save"
+Converted string - line 15: "Data\save" -> "Data\\save"
+Converted string - line 16: "Data\save" -> "Data\\save"
+
+Converting GML script: ${project_dir}\objects\objWarpNext\Collision_0590bae6-3cc7-44d3-9dcb-910aa32cbe2e.gml
+Converted description /// @description go to the next room
+
+Converting GML script: ${project_dir}\objects\objWarpAutosaveNext\Collision_bdedc349-20f0-4ce9-b315-669fb00efc85.gml
+Converted description /// @description go to the next room and autosave
+
+Converting GML script: ${project_dir}\objects\objGameClear\Collision_98fce8b1-e187-4ffa-bacc-3960f13f113e.gml
+Converted description /// @description set game to clear and autosave when touched
+
+Missing audiogroup for sound: 'sndJump' - setting to default audio group
+Missing audiogroup for sound: 'sndDJump' - setting to default audio group
+Missing audiogroup for sound: 'sndWallJump' - setting to default audio group
+Missing audiogroup for sound: 'sndShoot' - setting to default audio group
+Missing audiogroup for sound: 'sndDeath' - setting to default audio group
+Missing audiogroup for sound: 'sndItem' - setting to default audio group
+Missing audiogroup for sound: 'sndBlockChange' - setting to default audio group
+Missing audiogroup for sound: 'sndBossHit' - setting to default audio group
+Missing audiogroup for sound: 'sndCherry' - setting to default audio group
+Missing audiogroup for sound: 'sndGlass' - setting to default audio group
+Missing audiogroup for sound: 'sndSpikeTrap' - setting to default audio group
+Missing audiogroup for sound: 'musOnDeath' - setting to default audio group
+Missing audiogroup for sound: 'musGuyRock' - setting to default audio group
+Missing audiogroup for sound: 'musMegaman' - setting to default audio group
+Missing audiogroup for sound: 'musMiku' - setting to default audio group
+Game speed set to 50
+Added compatibility script 'd3d/d3d_end.gml'
+Added compatibility script 'd3d/d3d_set_culling.gml'
+Added compatibility script 'd3d/d3d_set_fog.gml'
+Added compatibility script 'd3d/d3d_set_lighting.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_colour_write_enable.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'texture/texture_set_interpolation.gml'
+Added compatibility script 'texture/texture_set_repeat.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

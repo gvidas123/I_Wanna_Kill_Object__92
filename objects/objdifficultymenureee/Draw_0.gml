@@ -1,0 +1,1 @@
+draw_text_color(310,129,"Press shift to start",c_white,c_white,c_white,c_white,1);
